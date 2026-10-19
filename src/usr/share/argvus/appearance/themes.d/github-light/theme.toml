@@ -31,7 +31,7 @@ background = "#FFFFFF"
 calendar_css = "github-light"
 
 # Removable devices CSS variant (may differ from theme id)
-removable_devices_css = "github-light"
+removable_devices_css = "argvus-light"
 
 [aliases]
 # Legacy theme ID mappings (if any) - format: "old-id" = "github-light"
