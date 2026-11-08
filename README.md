@@ -1,6 +1,6 @@
 # GitHub Light theme for ARGVUS
 
-Official ARGVUS Light theme, `github-light`, with its Sticky and Float variants.
+Official ARGVUS Light theme, `github-light`, with its Sticky and Spaced variants.
 
 [![CI](https://github.com/argvus/argvus-theme-github-light/actions/workflows/ci.yml/badge.svg)](https://github.com/argvus/argvus-theme-github-light/actions/workflows/ci.yml)
 [![Release](https://github.com/argvus/argvus-theme-github-light/actions/workflows/release.yml/badge.svg)](https://github.com/argvus/argvus-theme-github-light/actions/workflows/release.yml)
@@ -15,7 +15,7 @@ Official ARGVUS Light theme, `github-light`, with its Sticky and Float variants.
 
 | Field | Value |
 | --- | --- |
-| Theme ID | `github-light` (Float variant: `github-light-float`) |
+| Theme ID | `github-light` (Spaced variant: `github-light-spaced`) |
 | Display name | GitHub Light |
 | Mode | `light` |
 | Default highlight | `#0969DA` |
@@ -45,7 +45,7 @@ The package installs the theme manifest,
 the palette), the templates it overrides under `overrides/` when it has any, and its
 wallpapers under `/usr/share/backgrounds/argvus`. The files of every component are
 rendered from the palette by the component's own templates when the theme is applied,
-for Sticky and Float alike. `argvus theme check src/usr/share/argvus/themes/github-light`
+for Sticky and Spaced alike. `argvus theme check src/usr/share/argvus/themes/github-light`
 renders them all and reports any error.
 
 ## Development
