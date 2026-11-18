@@ -27,6 +27,10 @@ The values above are the ones declared in
 `src/usr/share/argvus/themes/github-light/theme.toml`, the manifest that the
 desktop reads. The manifest is the source of truth; this page describes it.
 
+The desktop palette follows [Primer Default light](https://primer-docs-preview.github.com/product/primitives/color/). The terminal uses the ANSI colors from [GitHub Light Default for VS Code](https://github.com/primer/github-vscode-theme/blob/main/src/theme.js), with blue following the desktop highlight.
+
+The included wallpaper is an original abstract Git graph with branches, commits and merges, generated with ImageGen and encoded as JPEG XL.
+
 ## Installing
 
 The package depends on `argvus` and `argvus-appearance`, so pacman installs them with it.
@@ -36,7 +40,7 @@ sudo pacman -S argvus-theme-github-light
 ```
 
 Select the theme in the Control Center (Appearance > Themes), or run
-`argvus theme-switch github-light`.
+`argvus theme apply github-light`.
 
 ## Files
 
